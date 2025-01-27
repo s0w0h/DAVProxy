@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from 'antd';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
