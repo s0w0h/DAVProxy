@@ -1,4 +1,6 @@
-# WebDAV代理服务
+> 此项目处于开发早期，暂时不能使用，注意！⚠️
+
+# DAVProxy
 
 这是一个WebDAV代理服务系统，允许用户管理多个WebDAV存储源，并为每个存储源生成独立的代理凭据。
 
@@ -23,8 +25,8 @@
 
 1. 克隆仓库：
    ```bash
-   git clone <repository-url>
-   cd webdavproxy
+   git clone https://github.com/s0w0h/DAVProxy.git
+   cd DAVProxy
    ```
 
 2. 创建环境变量文件：
